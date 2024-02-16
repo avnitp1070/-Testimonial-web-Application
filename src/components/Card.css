@@ -1,0 +1,22 @@
+.div-para{
+    margin-top: 1.75rem;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+.para-name{
+    font-weight: bold;
+    font-size: 1.5rem;
+    text-transform: capitalize;
+} 
+
+.para-job{
+    color: #9f7aea;
+     text-transform: uppercase;
+     font-size: small;
+     font-weight: bold;
+}
+.para-name,
+  .para-job {
+  margin: 0; 
+  }

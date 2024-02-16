@@ -11,3 +11,91 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.underline {
+  margin: auto;
+  background-color: #7f00ff; 
+  height: 4px;
+  width: 25%; /* 1/5 is equivalent to 20% */
+  margin-top: 1px;
+}
+
+.top-card{
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+
+.img{
+  aspect-ratio: 1/1;
+  border-radius: 50%;
+  width: 140px;
+  height: 140px;
+  z-index: 25;
+}
+.img-shadow{
+ width: 140px;
+ height: 140px;
+ background-color: #8A2BE2;
+ border-radius: 50%;
+  position: absolute;
+  z-index: -10;
+  top: -6px;
+  left:  10px;
+}
+
+.div-img{
+  position: absolute;
+  top: -7rem;
+  z-index: 10;
+  margin: auto;
+}
+
+.btn-div{
+  display: flex;
+  font-size: 1.875rem; /* Equivalent to text-3xl in Tailwind CSS */
+  margin-top: 1.25rem; /* Equivalent to mt-5 in Tailwind CSS */
+  gap: 0.75rem; /* Equivalent to gap-3 in Tailwind CSS */
+  color: #9F7AEA; /* Replace with the actual color value for text-violet-400 in Tailwind CSS */
+  font-weight: bold;
+}
+
+.myButton {
+  background-color: #9F7AEA; 
+  transition: all 200ms ease-in-out; 
+  cursor: pointer;
+  padding: 10px;
+  border-radius: 0.375rem; 
+  font-weight: bold;
+  color: #FFFFFF; 
+  font-size: 1.125rem; 
+}
+
+.myButton:hover {
+  background-color: #8A2BE2; 
+}
+
+.testimonial {
+  width: 85vw;
+}
+
+@media (min-width: 768px) {
+  .testimonial {
+    width: 700px;
+  }
+}
+
+.testimonial {
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 1.25rem;
+  padding: 1.25rem;
+  transition: all 700ms ease-in-out;
+}
+
+.testimonial:hover {
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
