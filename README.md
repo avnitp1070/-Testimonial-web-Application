@@ -5,8 +5,11 @@ Welcome to the Testimonials Showcase project! This React-based web application p
 ## Features
 
 -Dynamic Testimonial Display: Scroll through a collection of testimonials presented in a visually appealing Card format.
+
 -Interactive Navigation: Navigate through testimonials using intuitive left and right arrow buttons for a seamless user experience.
+
 -Surprise Me Button: Add an element of unpredictability by clicking the "Surprise Me" button, revealing a random testimonial with each click.
+
 -Responsive Design: Enjoy a consistent and user-friendly experience across various devices and screen sizes.
 
 ## Getting Started
